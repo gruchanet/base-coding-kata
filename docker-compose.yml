@@ -5,5 +5,7 @@ services:
     build: .
     volumes:
       - "$PWD:/data/app"
+    user: 1000:1000
     working_dir: "/data/app"
+    container_name: "coding_kata"
     command: sleep 99999
