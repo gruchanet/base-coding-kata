@@ -1,8 +1,5 @@
-# Przygotowanie środowiska
+# Bowling Kata
 
-Uruchom komendę w terminalu `id` w terminalu i sprawdź jaki uid i gid ma twój
-użytkownik. Zmień to w docker-compose.yml pod `1000:1000`
-Uruchom `docker-compose up -d` 
+Bowling game kata implemented in PHP 7.
 
-Developujemy ze środka kontenera, wchodzimy na niego za pomocą `docker exec -it coding_kata /bin/bash`
-W środku kontenera uruchamiamy `composer install`, czekamy na resztę ;)
+Based on: http://codingdojo.org/cgi-bin/index.pl?KataBowling
