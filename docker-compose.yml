@@ -7,5 +7,5 @@ services:
       - "$PWD:/data/app"
     user: 1000:1000
     working_dir: "/data/app"
-    container_name: "coding_kata"
+    container_name: "bowling_kata"
     command: sleep 99999

@@ -1,5 +1,5 @@
 {
-    "name": "kata/app",
+    "name": "rjozwiak/bowling-kata",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Madkom\\": "src"
+            "RJozwiak\\BowlingKata\\": "src"
         }
     },
     "autoload-dev": {
